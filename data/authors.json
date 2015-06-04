@@ -1,0 +1,78 @@
+{
+"a11001": {"name_jp": "芥川龍之介",
+	"name_en": "Akutagawa Ryunosuke",
+	"works": []
+	},
+"a14001": {"name_jp": "江見 水蔭",
+	"name_en": "Emi Suiin",
+	"works": []
+	},
+"a15001": {"name_jp": "岡本 綺堂",
+	"name_en": "Okamoto Kidou",
+	"works": []
+	},
+"a15002": {"name_jp": "小川 未明",
+	"name_en": "Ogawa Mimei",
+	"works": []
+	},
+"a21001": {"name_jp": "梶井 基次郎",
+	"name_en": "Kajii Motojiro",
+	"works": []
+	},
+"a23001": {"name_jp": "国木田 独歩",
+	"name_en": "Kunikida Doppo",
+	"works": []
+	},
+"a31001": {"name_jp": "佐藤春夫",
+	"name_en": "Satoh Haruo",
+	"works": []
+	},
+"a41001": {"name_jp": "高浜虚子",
+	"name_en": "Takahama Kyoshi",
+	"works": []
+	},
+"a41002": {"name_jp": "太宰 治",
+	"name_en": "Dazai Osamu",
+	"works": ["w00001","w00004","w00007"]
+	},
+"a45001": {"name_jp": "豊島 与志雄",
+	"name_en": "Toyoshima Yoshio",
+	"works": []
+	},
+"a51001": {"name_jp": "中島 敦",
+	"name_en": "Nakajima Atsushi",
+	"works": []
+	},
+"a51002": {"name_jp": "夏目 漱石",
+	"name_en": "Natsume Souseki",
+	"works": []
+	},
+"a52001": {"name_jp": "新美 南吉",
+	"name_en": "Niimi Nankichi",
+	"works": ["w00003","w00006","w00009"]
+	},
+"a61001": {"name_jp": "林 芙美子",
+	"name_en": "Hayashi Fumiko",
+	"works": []
+	},
+"a65001": {"name_jp": "堀　辰夫",
+	"name_en": "Hori Tatsuo",
+	"works": []
+	},
+"a71001": {"name_jp": "牧野 信一",
+	"name_en": "Makino Shinichi",
+	"works": []
+	},
+"a72001": {"name_jp": "水上 滝太郎",
+	"name_en": "Minakami Takitarou",
+	"works": []
+	},
+"a72002": {"name_jp": "宮沢 賢治",
+	"name_en": "Miyazawa Kenji",
+	"works": ["w00002","w00005","w00008"]
+	},
+"a85001": {"name_jp": "吉川 英治",
+	"name_en": "Yoshikawa Eiji",
+	"works": []
+	}
+}
