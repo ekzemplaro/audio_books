@@ -19,8 +19,16 @@
 	"name_en": "Kajii Motojiro",
 	"works": []
 	},
+"a22001": {"name_jp": "菊池 寛",
+	"name_en": "Kikuchi Kan",
+	"works": []
+	},
 "a23001": {"name_jp": "国木田 独歩",
 	"name_en": "Kunikida Doppo",
+	"works": []
+	},
+"a23002": {"name_jp": "久保田 万太郎",
+	"name_en": "Kubota Mantaro",
 	"works": []
 	},
 "a31001": {"name_jp": "佐藤春夫",
@@ -33,7 +41,7 @@
 	},
 "a41002": {"name_jp": "太宰 治",
 	"name_en": "Dazai Osamu",
-	"works": ["w00001","w00004","w00007"]
+	"works": []
 	},
 "a45001": {"name_jp": "豊島 与志雄",
 	"name_en": "Toyoshima Yoshio",
@@ -49,7 +57,7 @@
 	},
 "a52001": {"name_jp": "新美 南吉",
 	"name_en": "Niimi Nankichi",
-	"works": ["w00003","w00006","w00009"]
+	"works": []
 	},
 "a61001": {"name_jp": "林 芙美子",
 	"name_en": "Hayashi Fumiko",
@@ -69,7 +77,7 @@
 	},
 "a72002": {"name_jp": "宮沢 賢治",
 	"name_en": "Miyazawa Kenji",
-	"works": ["w00002","w00005","w00008"]
+	"works": []
 	},
 "a85001": {"name_jp": "吉川 英治",
 	"name_en": "Yoshikawa Eiji",

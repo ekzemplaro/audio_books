@@ -153,5 +153,15 @@
 	"title_en": "Junsa no iru Fuukei",
 	"url_archive": "junsanoirufuukei_nakajima",
 	"author": "a51001",
+	"txt_src": []},
+"w00032": {"title_jp": "蘭学事始",
+	"title_en": "Rangaku Kotohajime",
+	"url_archive": "rangakukotohajime_kikuchi",
+	"author": "a22001",
+	"txt_src": []},
+"w00033": {"title_jp": "三の酉",
+	"title_en": "San no Tori",
+	"url_archive": "sannotori_kubota",
+	"author": "a23002",
 	"txt_src": []}
 }
