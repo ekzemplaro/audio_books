@@ -13,7 +13,8 @@ jQuery (function ()
 
 	var file_authors = "data/authors.json";
 	var file_works = "data/works.json";
-	var file_archive = "data/short_merged.json";
+//	var file_archive = "data/short_merged.json";
+	var file_archive = "data/data_archive.json";
 
 	jQuery.getJSON (file_authors,function (data_authors)
 		{
