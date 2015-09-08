@@ -2,12 +2,13 @@
 // ---------------------------------------------------------------
 //	fetch_audio_archive.js
 //
-//					Jun/08/2015
+//					Jul/02/2015
 //
 // ---------------------------------------------------------------
 var fs = require("fs");
 var underscore = require('underscore');
 
+var totaltime =require ("./totaltime");
 // ---------------------------------------------------------------
 // console.log ("*** 開始 ***");
 
@@ -97,14 +98,23 @@ function filter_arhive_shorten_proc (key,data_aa)
 //	console.log (data_aa.metadata.publicdate);
 //	console.log (data_aa.item.downloads);
 
+	var total_time = totaltime.archive_totaltime_proc (data_aa);
+
+	console.log (total_time);
+	unit_aa['total_time'] = total_time;
+
 	unit_aa['publicdate'] = data_aa.metadata.publicdate[0];
 	unit_aa['downloads'] = 0;
+	unit_aa['week'] = 0;
+	unit_aa['month'] = 0;
 
 	if ('item' in data_aa)
 		{
 		if ('downloads' in data_aa.item)
 			{
 			unit_aa['downloads'] = data_aa.item.downloads;
+			unit_aa['week'] = data_aa.item.week;
+			unit_aa['month'] = data_aa.item.month;
 			}
 		}
 

@@ -1,17 +1,12 @@
 {
-"w00031": {"title_jp": "巡査の居る風景",
-	"title_en": "Junsa no iru Fuukei",
-	"url_archive": "junsanoirufuukei_nakajima",
-	"author": "a51001",
-	"txt_src": []},
-"w00032": {"title_jp": "蘭学事始",
-	"title_en": "Rangaku Kotohajime",
-	"url_archive": "rangakukotohajime_kikuchi",
-	"author": "a22001",
-	"txt_src": []},
-"w00033": {"title_jp": "三の酉",
-	"title_en": "San no Tori",
-	"url_archive": "sannotori_kubota",
-	"author": "a23002",
-	"txt_src": []}
+"w00044": {"title_jp": "半鐘の怪",
+	"title_en": "Hansyou no Kai",
+	"url_archive": "hansyounokai_okamoto",
+	"author": "a15001",
+	"txt_src": ["http://www.aozora.gr.jp/cards/000082/files/965_14983.html"]},
+"w00045": {"title_jp": "奥女中",
+	"title_en": "Okujochuu",
+	"url_archive": "okujochuu_okamoto",
+	"author": "a15001",
+	"txt_src": ["http://www.aozora.gr.jp/cards/000082/files/1009_14984.html"]}
 }
