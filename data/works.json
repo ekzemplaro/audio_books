@@ -233,5 +233,15 @@
 	"title_en": "Haru no Yukidoke",
 	"url_archive": "harunoyukidoke_okamoto",
 	"author": "a15001",
-	"txt_src": ["http://www.aozora.gr.jp/cards/000082/files/966_14986.html"]}
+	"txt_src": ["http://www.aozora.gr.jp/cards/000082/files/966_14986.html"]},
+"w00048": {"title_jp": "広重と川獺",
+	"title_en": "Hiroshige to Kawauso",
+	"url_archive": "hiroshigetokawauso_okamoto",
+	"author": "a15001",
+	"txt_src": ["http://www.aozora.gr.jp/cards/000082/files/970_14987.html"]},
+"w00049": {"title_jp": "屋根裏の散歩者",
+	"title_en": "Yaneura no Sanposya",
+	"url_archive": "yaneuranosanposya_edogawa",
+	"author": "a14002",
+	"txt_src": []}
 }
