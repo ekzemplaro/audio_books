@@ -243,5 +243,10 @@
 	"title_en": "Yaneura no Sanposya",
 	"url_archive": "yaneuranosanposya_edogawa",
 	"author": "a14002",
-	"txt_src": []}
+	"txt_src": []},
+"w00050": {"title_jp": "手紙",
+	"title_en": "Tegami",
+	"url_archive": "tegami_natsume",
+	"author": "a51002",
+	"txt_src": ["http://www.aozora.gr.jp/cards/000148/card798.html"]}
 }
