@@ -1,0 +1,10 @@
+./got
+works_test.json
+https://archive.org/details/hansyounokai_okamoto
+https://archive.org/details/okujochuu_okamoto
+2860 '00:47:40'
+00:47:40
+2900 '00:48:20'
+00:48:20
+*** 終了 ***
+(node:1963) DeprecationWarning: Calling an asynchronous function without callback is deprecated.

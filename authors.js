@@ -1,45 +1,25 @@
 // -----------------------------------------------------------------------
 //	authors.js
 //
-//					Jun/04/2015
+//					Jan/04/2017
 //
 // -----------------------------------------------------------------------
-jQuery (function ()
-{
-	jQuery("#outarea_aa").html
-		("*** authors *** start *** Jun/04/2015 ***");
+var app = angular.module('myApp', [])
+var file_in = "data/authors.json"
 
-	var data_text = "";
+app.controller('MainController', ['$scope', '$timeout', '$http', function($scope, $timeout, $http){
+    $timeout(function() {
+$http.get(file_in)
+	.then(function(res) {
+	console.log ('読み込み成功')
+	console.log (res.data)
+	$scope.items = res.data
+    })
+	.catch (function(err) {
+		alert('読み込み失敗')
+    })
+})
 
-	var file_authors = "data/authors.json";
-
-	jQuery.getJSON (file_authors,function (data_authors)
-		{
-		data_process (data_authors);
-		});
-
-	jQuery("#outarea_hh").html
-		("*** authors *** end *** Jun/04/2015 ***");
-
-});
-
-// -----------------------------------------------------------------------
-function data_process (data_authors)
-{
-	var str_out = "";
-	str_out += "<table>";
-	for (var key in data_authors)
-		{
-		str_out += "<tr>";
-		var record = data_authors[key];
-		str_out += "<td>" + key + "</td>";
-		str_out += "<td>" + record.name_jp + "</td>";
-		str_out += "<td>" + record.name_en + "</td>";
-		str_out += "</tr>";
-		}
-	str_out += "</table>";
-
-	jQuery(".contents").html (str_out);
-}
+}])
 
 // -----------------------------------------------------------------------

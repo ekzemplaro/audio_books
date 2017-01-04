@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html ng-app="myApp" lang="ja">
 <head>
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Cache-Control" content="no-cache" />
@@ -7,27 +7,25 @@
 <meta name="description" content="Audio books" />
 <meta name="author" content="Uchida Masatomo" />
 <meta content="Japanese,Literature,Community Audio" name="keyword">
-<script src="/js/jquery-2.1.4.min.js"></script>
+<script src="/js/angular.min.js"></script>
 <script src="authors.js"></script>
 <link href="audio_books.css" rel="stylesheet" />
-<title>Authors (Jun/04/2015)</title>
+<title>Authors</title>
 </head>
-<body>
+<body ng-controller="MainController">
 <h2>Authors</h2>
 
-<div class="contents">contents</div>
-
-<hr />
-<div id="outarea_aa">outarea_aa</div>
-<div id="outarea_bb">outarea_bb</div>
-<div id="outarea_cc">outarea_cc</div>
-<div id="outarea_dd">outarea_dd</div>
-<div id="outarea_ee">outarea_ee</div>
-<div id="outarea_ff">outarea_ff</div>
-<div id="outarea_gg">outarea_gg</div>
-<div id="outarea_hh">outarea_hh</div>
+<table>
+<tr ng-repeat="(key,value) in items">
+	<td>{{$index + 1}}</td>
+	<td>{{key}}</td>
+	<td>{{value.name_jp}}</td>
+	<td>{{value.name_en}}</td>
+</tr>
+</table>
 <p />
+<hr />
 
-Jun/04/2015<br />
+Jan/04/2017<br />
 </body>
 </html>
